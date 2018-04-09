@@ -18,7 +18,16 @@ class Pet:
 
     def play(self):
         print("Yippee!")
-
+        
+    def read(self):
+        print("hmmm interesting...")
+        
+    def sing(self):
+        print("la la la la laaaaaaaa")
+        
+    def dance(self):
+        print("yaaaaasssss")
+        
     def rotate_right(self):
         self.direction += 1
 
@@ -52,7 +61,7 @@ class Pet:
                ", d=" + str(self.direction) + "]"
     
     
-pet1 = Pet("Jaden")
-pet2 = Pet("Coop Dogg")
-pet3 = Pet("Bob Ross")
+pet1 = Pet("Jaz")
+pet2 = Pet("Dai")
+pet3 = Pet("oof")
 
