@@ -14,19 +14,19 @@ class Pet:
             print("Dis boi ded.")
 
     def sleep(self):
-        print("zzzzzzzzzzzzzz...")
+        print(self.name + "goes zzzzzzzzzzzzzz...")
 
     def play(self):
-        print("Yippee!")
+        print(self.name + "goes Yippee!")
         
     def read(self):
-        print("hmmm interesting...")
+        print(self.name + "says hmmm interesting...")
         
     def sing(self):
-        print("la la la la laaaaaaaa")
+        print(self.name + " sings la la la la laaaaaaaa")
         
     def dance(self):
-        print("yaaaaasssss")
+        print(self.name + "says yaaaaasssss")
         
     def rotate_right(self):
         self.direction += 1
